@@ -13,5 +13,20 @@ the floyd commands are run from.
 ```bash
 $ echo "Pillow" > floyd_requirements.txt
 ```
+------------------------------
+You could also install all dependencies directly from the notebook cells.
+```bash
+!pip install --upgrade pip
+```
+
+```bash
+!pip install name_of_the_package
+```
+
+For example :
+```bash
+!pip install tflearn
+```
+Note: Do not forget the initial (!).
 
 {!contributing.md!}
